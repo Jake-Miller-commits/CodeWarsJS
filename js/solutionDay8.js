@@ -12,6 +12,5 @@ function solution(str){
     return str.split('').reverse().join('');
 }
 
-// // or
-
+// or
 // const solution = str => str.split('').reverse().join('');
