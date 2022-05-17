@@ -1,7 +1,7 @@
 //Day07 Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
 //P: true or false 
 //R: console Yes or No
-//E:booltoWord(true) = "Yes"
+//E: booltoWord(true) = "Yes"
 
 function boolToWord( bool ){
     if (bool){
