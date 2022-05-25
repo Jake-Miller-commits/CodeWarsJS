@@ -1,6 +1,8 @@
 # CodeWars Challenges: 
+<img src="https://www.codewars.com/users/MillerCommits/badges/large"/>
 
 A repository filled with codewars challenges (kata). 
+
 
 ## How It's Made:
 
