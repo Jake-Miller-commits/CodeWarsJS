@@ -4,7 +4,18 @@
 // E: For example, for "1", return 1
 
 
-const stringToNumber = function(str){
-    str = parseInt(str, 10);
-    return str
-  }
+// const stringToNumber = function(str){
+//     str = parseInt(str, 10);
+//     return str
+//   }
+
+
+//OR 
+
+// var stringToNumber = function(str){
+//     return parseInt(str);
+//   }
+
+  // OR arrow function
+
+  const stringToNumber = str => Number(str)
