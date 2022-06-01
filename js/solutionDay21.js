@@ -9,3 +9,7 @@ function greet(name){
     //using a template literal to input the name into the string
     return `Hello, ${name} how are you doing today?`
   }
+
+
+// Or using Arrow function
+// const greet = name => `Hello, ${name} how are you doing today?`;
