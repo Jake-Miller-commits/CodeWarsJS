@@ -26,3 +26,10 @@ function booleanToString(b){
 // function booleanToString(b){
 //     return b ? 'true' : 'false';
 //   }
+
+
+// OR 
+
+// function booleanToString(b){
+//     return `${b}`
+//   }
