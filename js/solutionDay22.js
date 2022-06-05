@@ -17,9 +17,9 @@
 
 // Or using Arrow function
 
-function booleanToString(b){
-    return b.toString();
-  }
+// function booleanToString(b){
+//     return b.toString();
+//   }
 
 // OR 
 
@@ -30,6 +30,6 @@ function booleanToString(b){
 
 // OR 
 
-// function booleanToString(b){
-//     return `${b}`
-//   }
+function booleanToString(b){
+    return `${b}`
+  }
