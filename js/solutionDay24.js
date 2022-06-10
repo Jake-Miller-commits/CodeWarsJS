@@ -10,17 +10,17 @@
 // patrick feeney => P.F
 
 
-function abbrevName(name){
-    //using Array split and index position
-    var nameArray = name.split(" ");
-    return (nameArray[0][0] + "." + nameArray[1][0]).toUpperCase();
-  }
+// function abbrevName(name){
+//     //using Array split and index position
+//     var nameArray = name.split(" ");
+//     return (nameArray[0][0] + "." + nameArray[1][0]).toUpperCase();
+//   }
 
 // OR arrow function
 
 
-// function abbrevName(name){
+function abbrevName(name){
 
-//     return name.split(' ').map(i => i[0].toUpperCase()).join('.')
+    return name.split(' ').map(i => i[0].toUpperCase()).join('.')
 
-// }
+}
