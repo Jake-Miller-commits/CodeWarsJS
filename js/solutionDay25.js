@@ -6,22 +6,22 @@
 // highAndLow("1 2 -3 4 5"); // return "5 -3"
 // highAndLow("1 9 3 4 -5"); // return "9 -5"
 
-function highAndLow(numbers){
-    // split to create the array and map them
-    let arr = numbers.split(' ').map(Number);
-    //to return and do the max and min for the arr array  
-    return Math.max(...arr) + ' ' + Math.min(...arr);
-  }
+// function highAndLow(numbers){
+//     // split to create the array and map them
+//     let arr = numbers.split(' ').map(Number);
+//     //to return and do the max and min for the arr array  
+//     return Math.max(...arr) + ' ' + Math.min(...arr);
+//   }
 
 
 // OR 
 
 
-// function highAndLow(numbers) {
-//     numbers = numbers.split(' ').map(Number)
+function highAndLow(numbers) {
+    numbers = numbers.split(' ').map(Number)
     
-//     var min = Math.min.apply(null, numbers)
-//     var max = Math.max.apply(null, numbers)
+    var min = Math.min.apply(null, numbers)
+    var max = Math.max.apply(null, numbers)
     
-//     return max + ' ' + min
-//   }
+    return max + ' ' + min
+  }
