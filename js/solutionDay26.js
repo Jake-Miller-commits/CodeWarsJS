@@ -11,12 +11,11 @@
 // 2000 --> 20
 
 
-function century(year) {
-    //using ceiling method to round up to nearest century (100)
-    return Math.floor((year-1)/100) + 1;
+// function century(year) {
+//     //using ceiling method to round up to nearest century (100)
+//     return Math.floor((year-1)/100) + 1;
     
-}
+// }
 
 // OR using arrow function 
-
-// const century = year => Math.ceil(year/100)
+const century = year => Math.ceil(year/100)
